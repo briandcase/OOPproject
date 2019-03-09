@@ -1,4 +1,4 @@
-package default;
+import java.util.Date;
 
 public class Nurse {
 	
@@ -10,7 +10,7 @@ public class Nurse {
 	private int roomID;
 	private String symptom;
 	private String bloodPressure;
-	private date visit;
+	private Date visit;
 	private double bodyTemperature;
 	private boolean available;
 	
@@ -18,16 +18,39 @@ public class Nurse {
 	public Nurse()
 	{
 		available = true;
-		date = today;
+	}
+
+	public int getNurseID()
+	{
+		return nurseID;
+	}
+
+	public void setNurseID(int nurse)
+	{
+		this.nurseID = nurse;
+	}
+
+	public int getPatientID()
+	{
+		return patientID;
+	}
+
+	public void setPatientID(int patient)
+	{
+		this.patientID = patient;
 	}
 	
+	public int getDoctorID()
+	{
+		return doctorID;
+	}
 	// setter and getters
-	public void getBodyTemperature()
+	public double getBodyTemperature()
 	{
 		return bodyTemperature;
 	}
 	
-	public void getAvailable()
+	public boolean getAvailable()
 	{
 		return available;
 	}
@@ -42,38 +65,38 @@ public class Nurse {
 		this.bodyTemperature = bodyTemperature;
 	}
 	
-	public void getVisit()
+	public Date getVisit()
 	{
 		return visit;
 	}
 	
-	public void setVisit(int visit)
+	public void setVisit(Date visit)
 	{
 		this.visit = visit;
 	}
 	
-	public void getBloodPressure()
+	public String getBloodPressure()
 	{
 		return bloodPressure;
 	}
 	
-	public void setBloodPressure(int bloodPressure)
+	public void setBloodPressure(String bloodPressure)
 	{
 		this.bloodPressure = bloodPressure;
 	}
 	
-	public void getSymptom()
+	public String getSymptom()
 	{
 		return symptom;
 	}
 	
-	public void setSymptom(int symptom)
+	public void setSymptom(String symptom)
 	{
 		this.symptom = symptom;
 	}
 	
 	// setter and getters
-	public void getWeight()
+	public int getWeight()
 	{
 		return weight;
 	}
@@ -83,7 +106,7 @@ public class Nurse {
 		this.weight = weight;
 	}
 	
-	public void getRoomID() 
+	public int getRoomID() 
 	{
 		return roomID;
 	}
