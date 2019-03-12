@@ -31,8 +31,13 @@ public class Doctor extends MedicalTeam
         return specialty;
     }
 
-    public boolean setIsAvailable()
+    public void setIsAvailable(boolean b)
     {
+        isAvailable = b;
+    }
 
+    public boolean getIsAvailable()
+    {
+        return isAvailable;
     }
 }

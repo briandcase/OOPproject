@@ -8,7 +8,7 @@ public class Insurance
 
     public Insurance()
     {
-        // TODO: Complete default constructor
+        
     }
 
     public String getProvider()
