@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Nurse {
+public class Nurse extends MedicalTeam{
 	
 	// private class members
 	private int nurseID;
