@@ -7,7 +7,12 @@ public class Patient
 
     public Patient()
     {
+        init();
+    }
 
+    private void init()
+    {
+        
     }
 
     public String getSymptom()

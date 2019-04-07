@@ -17,6 +17,11 @@ public class Nurse extends MedicalTeam{
 	// default constructor
 	public Nurse()
 	{
+		init();
+	}
+
+	private void init()
+	{
 		available = true;
 	}
 

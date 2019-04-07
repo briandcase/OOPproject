@@ -7,10 +7,15 @@ public class Doctor extends MedicalTeam
 
     public Doctor()
     {
+        init();
+    }
+     
+    private void init()
+    {
         isAvailable = true;
         specialty = "GP";
     }
-
+    
     public void setDiagnoses(String d)
     {
         diagnoses = d;
