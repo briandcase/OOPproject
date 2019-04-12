@@ -8,6 +8,11 @@ public class Insurance
 
     public Insurance()
     {
+        init();
+    }
+
+    private void init()
+    {
         
     }
 

@@ -3,6 +3,16 @@ public class Medication
     private String name;
     private double price;
 
+    public Medication()
+    {
+        init();
+    }
+
+    private void init()
+    {
+
+    }
+
     public Medication(String n, double p)
     {
         this.name = n;
